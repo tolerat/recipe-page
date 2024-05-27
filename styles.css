@@ -1,0 +1,145 @@
+/* styles.css */
+
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(24, 5%, 18%);
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .omelette-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2rem;
+    font-family: 'Young Serif', serif;
+  }
+  
+  main section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.5rem;
+    border-bottom: 2px solid hsl(332, 51%, 32%);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .description p {
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+  }
+  
+  .preparation-time ul,
+  .ingredients ul,
+  .instructions ol {
+    padding-left: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid hsl(30, 18%, 87%);
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: hsl(330, 100%, 98%);
+  }
+  
+  footer {
+    background-color: hsl(24, 5%, 18%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.25rem;
+    }
+  
+    .description p,
+    .preparation-time ul,
+    .ingredients ul,
+    .instructions ol {
+      font-size: 0.9rem;
+    }
+  
+    th, td {
+      padding: 6px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.25rem;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    .description p,
+    .preparation-time ul,
+    .ingredients ul,
+    .instructions ol {
+      font-size: 0.8rem;
+    }
+  
+    th, td {
+      padding: 4px;
+    }
+  }
+  
